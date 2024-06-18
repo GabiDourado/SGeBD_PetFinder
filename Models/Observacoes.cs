@@ -19,7 +19,7 @@ namespace ProjetoSemestre3___Encontrar.Models
 
         [Column("ObservacaoData")]
         [Display(Name = "Data")]
-        public DateTime ObservacaoData { get; set; }
+        public string ObservacaoData { get; set; } = string.Empty;
 
         [ForeignKey("AnimaisId")]
         public int AnimaisId { get; set; }

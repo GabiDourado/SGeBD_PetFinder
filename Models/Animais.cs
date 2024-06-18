@@ -39,11 +39,11 @@ namespace ProjetoSemestre3___Encontrar.Models
 
         [Column("AnimalDtDesaparecimento")]
         [Display(Name = "Data de desaparecimento do Animal")]
-        public DateTime AnimalDtDesaparecimento { get; set; }
+        public string AnimalDtDesaparecimento { get; set; } = string.Empty;
 
         [Column("AnimalDtEncontro")]
         [Display(Name = "Data de encontro do Animal")]
-        public DateTime? AnimalDtEncontro { get; set; }
+        public string? AnimalDtEncontro { get; set; } = string.Empty;
 
         [Column("AnimalStatus")]
         [Display(Name = "Status do Animal")]
