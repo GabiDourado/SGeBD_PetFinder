@@ -23,5 +23,8 @@ body {
     height: 400
 }
 nav {
-    background-color: #09488F
+    background-color: #09488F;
+}
+a, li{
+    color: white
 }
